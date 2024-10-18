@@ -1,0 +1,440 @@
+<!--Paleta de color
+verde #1F6D81
+beige #FFE7D0
+naranja #F58C52
+cafe #A34927
+azul #D0E7FF
+-->
+<html lang="es">
+ <head>
+         <title>TABLAS</title>
+         <link rel="stylesheet" href="../css/stylepage.css" type="text/css">
+ </head>
+
+ <style type="text/css">
+     body{
+         background-color: #113D47;
+     }
+    #tabla_1{
+         width: 100%;
+         text-align: center;
+         margin: 0 auto;
+         color: #f7f1e1;
+         border-style: solid;
+         border-width: 2px;
+         margin-top: 20px;
+         padding: 2px;
+            }
+    #tabla_1 th{
+         background-color : #1F6D81;
+             border-radius: 8px;
+             padding: 5px;
+         }
+    #tabla_1 td{
+         background-color: #D0E7FF;
+         color: #1F6D81 ;
+         text-align: center;
+         border-radius: 6px;
+         margin: 20px;
+         border-style: solid;
+         border-color: #1F6D81;
+         border-width: 2px;
+         padding: 10px;
+         }
+     
+         /*TABLA 2*/
+     #tabla_2{
+         margin-top: 20px;
+         }
+     .celda_centrada{
+         text-align: center;
+     }
+     .tabla_tamano{
+         width: 900px;
+         border-collapse: collapse;
+         border-color:#f7f1e1;
+         margin: 0 auto;
+         color: #855e6e ;
+         }
+         .tabla_tamano td, .tabla_tamano th{
+         /*width: 20px;*/
+         border-color:#1F6D81;
+         padding: 10px;
+         border-style: dashed;
+         }
+         .tabla_tamano th{
+         background-color: #1F6D81;
+         color: #f7f1e1;
+         }
+         .tabla_tamano td{
+         background-color: #D0E7FF;
+         }
+         /* FIN TABLA 2*/
+
+         /*TABLA 3*/
+         #tabla_zebra{
+         width: 100%;
+         }
+         .tabla_tres td, .tabla_tres th{
+         padding: 5px;
+         border-color:#f7f1e1;
+         text-align: center;
+         }
+         #tabla_zebra tbody tr:nth-child(even){
+         background-color: #D0E7FF;
+         color: #1F6D81;
+         }
+         #tabla_zebra tbody tr:nth-child(odd){
+         background-color: #f7f1e1;
+         color: #1F6D81;
+         }
+         #tabla_zebra thead tr{
+         background-color: #1F6D81;
+         color: #f7f1e1;
+         }
+         /* FIN TABLA 3*/
+
+         /*TABLA 4*/
+         .tabla_hover{
+         width: 80%;
+         margin: 0 auto;
+         color: #855e6e;
+         }
+         .tabla_hover thead th{
+         background-color:#1F6D81;
+         padding: 10px;
+         color:#f7f1e1 ;
+         }
+         .tabla_hover tbody td{
+         background-color:#D0E7FF;
+         padding: 15px;
+         }
+         .tabla_hover tbody tr:hover{
+         background-color:#1F6D81;
+         color:#FFE7D0;
+         }
+     /*FIN TABLA 4*/
+ </style>
+
+ <body>
+ <header id="header_amigos"><h1>MIS AMIGOS</h1></header>
+
+         <nav id="nav_amigos">
+             <ul>
+                <li id="menu_carrera" > <a href="../HTML/sobremi.html">SOBRE MI</a></li>
+                <li id="menu_carrera"> <a href="../HTML/Hobbies.html">HOBBIES</a> </li>
+                <li id="menu_carrera"> <a href="../HTML/micarrera.html">MI CARRERA</a> </li>
+                <li id="menu_carrera"> <a href="../HTML/Peliculas.html">PELICULAS</a></li>
+                <li id="menu_carrera"> <a href="../HTML/musica.html">MI MUSICA</a> </li>
+                <li id="menu_carrera"> <a href="../HTML/juegos.html">JUEGOS FAV.</a> </li>       
+                <li id="menu_carrera"> <a href="../HTML/tablas.html">AMIGOS</a> </li>
+                <li id="menu_carrera"> <a href="../HTML/formularios.html">¿QUIEN ERES?</a> </li>
+            </ul>
+        </nav>
+
+ <main id="main_amigos">
+         <section id="seccion_amigos" style="overflow: auto" >
+         <h2 id="amigos">MIS AMIGOS DE LA UNI</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vivamus scelerisque quis mi non efficitur. Maecenas nisi ligula, ultricies ut
+        sem quis, porta maximus odio. Aliquam est tortor, laoreet tempor pharetra
+        eget, tempus id orci. Aenean dignissim, tellus eget pretium pharetra, dui
+        odio porttitor nulla, id scelerisque ligula ipsum a felis. Proin fermentum
+        eros non purus sagittis scelerisque. Fusce vehicula porta erat. Ut congue
+        velit sit amet viverra lacinia. Integer mollis libero a mauris laoreet
+        dignissim. Praesent a nunc in lacus vestibulum convallis quis in neque. Ut in
+        blandit libero. Nulla vestibulum ligula in porta consequat. Nam maximus erat
+        in leo interdum, vel finibus erat vulputate.</p>
+
+         <table border="1" id="tabla_1" >
+         <thead>
+         <tr>
+         <th>Matricula</th>
+         <th>Nombre</th>
+         <th>A. Paterno</th>
+         <th>A. Materno</th>
+         <th>Colegio</th>
+         </tr>
+         </thead>
+
+         <tbody>
+         <tr>
+         <td>202109173</td>
+         <td>Alan</td>
+         <td>de la Cruz</td>
+         <td>Ontiveros</td>
+         <td>Diseño Grafico</td>
+         </tr>
+         <tr>
+         <td>202169061</td>
+         <td>Carla</td>
+         <td>Hernández</td>
+         <td>Escobar</td>
+         <td>Diseño Gráfico</td>
+         </tr>
+         <tr>
+         <td>202143206</td>
+         <td>Dianet</td>
+         <td>Barranco</td>
+         <td>Barranco</td>
+         <td>Diseño Gráfico</td>
+         </tr>
+         <tr>
+         <td>202108532</td>
+         <td>Karina</td>
+         <td>Celis</td>
+         <td>Mendieta</td>
+         <td>Diseño Gráfico</td>
+         </tr>
+         <tr>
+         <td>202108888</td>
+         <td>Beatriz Adriana</td>
+         <td>Cortes</td>
+         <td>Hernandez</td>
+         <td>Diseño Gráfico</td>
+         </tr>
+         </tbody>
+
+         <tfoot></tfoot>
+         </table> <br>
+              <a href="#menu_interno_amigos">  <img style="width: 50px; margin-left: 490px;" id="dan" src="../imagenes/ICONOS/amigos.png">
+                </a>
+         </section>
+
+         <section id="seccion_amigos" style="overflow: auto">
+                 <h2 id="gastos">¿EN QUE GASTAN MAS?</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus scelerisque quis mi non efficitur. Maecenas nisi ligula, ultricies ut
+                sem quis, porta maximus odio. Aliquam est tortor, laoreet tempor pharetra
+                eget, tempus id orci. Aenean dignissim, tellus eget pretium pharetra, dui
+                odio porttitor nulla, id scelerisque ligula ipsum a felis. Proin fermentum
+                eros non purus sagittis scelerisque. Fusce vehicula porta erat. Ut congue
+                velit sit amet viverra lacinia. Integer mollis libero a mauris laoreet
+                dignissim. Praesent a nunc in lacus vestibulum convallis quis in neque. Ut in
+                blandit libero. Nulla vestibulum ligula in porta consequat. Nam maximus erat
+                in leo interdum, vel finibus erat vulputate.</p>
+
+                 <table id="tabla_2" class="tabla_tamano">
+                 <thead>
+                 <tr>
+                 <th style="width: 20%">Nombre</th>
+                 <th style="width: 10%" "text-align: center;
+                padding:0px;">Edad</th>
+                 <th style="width: 20%" colspan="2">Gastos Principales</th>
+                 <th style="width: 20%">Gasto Mensual</th>
+                 </tr>
+                 </thead>
+
+                 <tbody>
+                 <tr>
+                 <td>Alan Cruz</td>
+                 <td style="text-align: center; padding:0px;width:
+                10%;" >25</td>
+                 <td>Pasajes</td>
+                 <td>Comida</td>
+                 <td style="text-align: center; padding: 0px;
+                background-color:#f7f1e1;">$500</td>
+                 </tr>
+                 <tr>
+                 <td>Carla Hernandez</td>
+                 <td style="text-align: center; padding:0px;
+                width: 10%">22</td>
+                 <td>Comida</td>
+                 <td>Gym</td>
+                 <td style="text-align: center; padding: 0px;
+                background-color:#f7f1e1;">$2000</td>
+                 </tr>
+                 <tr>
+                 <td>Dianet Barranco</td>
+                 <td style="text-align: center; padding:0px;width:
+                10%">21</td>
+                 <td>Pasajes</td>
+                 <td>Comida</td>
+                 <td style="text-align: center; padding: 0px;
+                background-color:#f7f1e1;">$800</td>
+                 </tr>
+                 <tr>
+                 <td>Adriana Cortes</td>
+                 <td style="text-align: center; padding:0px;width:
+                10%">21</td>
+                 <td>Tintes</td>
+                 <td>Moffins</td>
+                 <td style="text-align: center; padding: 0px;
+                background-color:#f7f1e1;">$300</td>
+                 </tr>
+                     <tr>
+                 <td>Karina Celis</td>
+                 <td style="text-align: center; padding:0px;width:
+                10%">21</td>
+                 <td>Harry Potter</td>
+                 <td>Papas a la francesa</td>
+                 <td style="text-align: center; padding: 0px;
+                background-color:#f7f1e1;">$500</td>
+                 </tr>
+                 </tbody>
+
+                 <tfoot>
+                 <tr>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td>TOTAL</td>
+                 <td class="celda_centrada" style="background-color: #1F6D81; color: #FFE7D0" >$4100</td>
+                 </tr>
+                 </tfoot>
+
+                 </table> <br>
+             <a href="#menu_interno_amigos">  <img style="width: 50px; margin-left: 490px;" id="dan" src="../imagenes/ICONOS/amigos.png">
+                </a>
+         </section>
+
+ <section id="seccion_amigos" style="overflow: auto">
+         <h2 id="carreras">ELLOS PROFESIONALMENTE</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vivamus scelerisque quis mi non efficitur. Maecenas nisi ligula, ultricies ut
+        sem quis, porta maximus odio. Aliquam est tortor, laoreet tempor pharetra
+        eget, tempus id orci. Aenean dignissim, tellus eget pretium pharetra, dui
+        odio porttitor nulla, id scelerisque ligula ipsum a felis. Proin fermentum
+        eros non purus sagittis scelerisque. Fusce vehicula porta erat. Ut congue
+        velit sit amet viverra lacinia. Integer mollis libero a mauris laoreet
+        dignissim. Praesent a nunc in lacus vestibulum convallis quis in neque. Ut in
+        blandit libero. Nulla vestibulum ligula in porta consequat. Nam maximus erat
+        in leo interdum, vel finibus erat vulputate.</p>
+
+         <table id="tabla_zebra" class="tabla_tres">
+         <thead>
+         <tr>
+         <th>Nombre</th>
+         <th>Nombre de Diseñador</th>
+         <th>Red social principal</th>
+         <th>Telefono</th>
+         <th>Email</th>
+         </tr>
+         </thead>
+
+         <tbody>
+         <tr>
+         <td>Alan de la Cruz</td>
+         <td>Dannar</td>
+         <td>Instagram</td>
+         <td>2214350636</td>
+         <td>dg_dannar@gmail.com</td>
+         </tr>
+         <tr>
+         <td>Carla Hernandez</td>
+         <td>Carla Caos</td>
+         <td>Instagram</td>
+         <td>2213755020</td>
+         <td>carlahesc@gmail.com</td>
+         </tr>
+         <tr>
+         <td>Dianer Barranco</td>
+         <td>Net Day</td>
+         <td>Instragram</td>
+         <td>2221577767</td>
+         <td>netday@gmail.com</td>
+         </tr>
+         <tr>
+         <td>Adriana Cortes</td>
+         <td>Tacos de Michi</td>
+         <td>Instagram</td>
+         <td>2212787525</td>
+         <td>tacosmichi@gmail.com</td>
+         </tr>
+         <tr>
+         <td>Karina Celis</td>
+         <td>Kc_Grafic</td>
+         <td>Instagram</td>
+         <td>2224942886</td>
+         <td>kc_grafic@gmail.com</td>
+         </tr>
+         <tr>
+         
+         </tbody>
+
+         <tfoot>
+         </tfoot>
+         </table>
+      <br>
+             <a href="#menu_interno_amigos">  <img style="width: 50px; margin-left: 490px;" id="dan" src="../imagenes/ICONOS/amigos.png">
+                </a>
+ </section>
+     
+ <section id="seccion_amigos" style="overflow: auto">
+         <h2 id="hobbies">SUS HOBBIES</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vivamus scelerisque quis mi non efficitur. Maecenas nisi ligula, ultricies ut
+        sem quis, porta maximus odio. Aliquam est tortor, laoreet tempor pharetra
+        eget, tempus id orci. Aenean dignissim, tellus eget pretium pharetra, dui
+        odio porttitor nulla, id scelerisque ligula ipsum a felis. Proin fermentum
+        eros non purus sagittis scelerisque. Fusce vehicula porta erat. Ut congue
+        velit sit amet viverra lacinia. Integer mollis libero a mauris laoreet
+        dignissim. Praesent a nunc in lacus vestibulum convallis quis in neque. Ut in
+        blandit libero. Nulla vestibulum ligula in porta consequat. Nam maximus erat
+        in leo interdum, vel finibus erat vulputate.</p>
+         <table id="" class="tabla_hover">
+         <thead>
+         <tr>
+         <th>Nombre</th>
+         <th>Edad</th>
+         <th>Hobbie</th>
+         
+         </tr>
+         </thead>
+
+         <tbody>
+         <tr>
+         <td>Alan de la Cruz</td>
+         <td>25</td>
+         <td>Video Juegos</td>
+         
+         </tr>
+         <tr>
+         <td>Carla Hernandez</td>
+         <td>21</td>
+         <td>Bailar</td>
+        
+         </tr>
+         <tr>
+         <td>Dianet Barranco</td>
+         <td>21</td>
+         <td>Ver Streams</td>
+        
+         </tr>
+         <tr>
+         <td>Adriana Cortes</td>
+         <td>21</td>
+         <td>Dormir</td>
+         
+         </tr>
+         <tr>
+         <td>Karina Celis</td>
+         <td>21</td>
+         <td>Ver series</td>
+       
+         </tr>
+         
+         </tbody>
+
+         <tfoot>
+         </tfoot>
+         </table>
+      <br>
+             <a href="#menu_interno_amigos">  <img style="width: 50px; margin-left: 490px;" id="dan" src="../imagenes/ICONOS/amigos.png">
+                </a>
+ </section>
+     <nav id="menu_interno_amigos">
+                <ul>
+                    <li id="menu_abajo_amigos"><a href="#amigos" >MIS AMIGOS</a></li>
+                    <li id="menu_abajo_amigos"><a href="#gastos" >SUS GASTOS</a></li>
+                    <li id="menu_abajo_amigos"><a href="#carreras" >SUS CARRERAS</a></li>
+                    <li id="menu_abajo_amigos"><a href="#hobbies" >SUS HOBBIES</a></li>
+                </ul>
+            
+            </nav>
+ </main>
+
+ <footer id="footer_amigos"><h5>Elaboado por ALAN DE LA CRUZ</h5></footer>
+
+ </body>
+</html>

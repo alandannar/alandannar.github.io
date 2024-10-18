@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="es">
+    <head>
+		<meta charset="utf-8">
+		<title></title>	     
+    <link rel="stylesheet" href="../css/stylepage.css" type="text/css">
+        
+		<style type="text/css">
+            body{
+                background-color: #111E38;
+            }
+          
+			form{
+				width: 80%;
+				height: auto;
+				padding: 30px;
+				background-color:#D8A95B;
+				color: #f7f1e1;
+				margin: 0 auto;
+				font-weight: bold;
+				border-radius: 40px;
+			}
+			label, input{
+				display: block;
+				margin-left: 0px;
+				
+			}
+			label{
+				padding-bottom: 10px;
+				padding-top: 7px;
+			}
+			input[type=text], input[type=password]{
+				width: 80%;
+				color: #771150;
+				padding: 8px;
+				padding-bottom: 10px;
+				border: 3px solid #f7f1e1;
+				border-radius: 10px;
+                margin: 0 auto;
+			}
+			input[type=submit]{
+				width: 50%;
+				background-color: #223C67;
+				color: #f7f1e1;
+				border-radius: 10px;
+				margin: 20px auto;
+				padding: 5px;
+			}
+			input[type=text]:focus  {
+				background-color: #f7f1e1;
+				border: 3px solid #ce7095;
+			}
+			select, input[type=number]{
+				width: 80%;
+				color: #771150;
+				padding: 8px;
+				padding-bottom: 10px;
+				border: 3px solid #f7f1e1;
+				border-radius: 10px;
+                margin: 0 auto;
+			}
+            
+            input[type=date], input[type=email],input[type=color], input[type=range], input[type=tel]{
+                margin: 0 auto;
+            }
+			select{
+				margin-left: 0px;
+			}
+			input[type=checkbox]{
+				margin-left: 20px;
+				
+			}
+		</style>
+    </head>
+    
+    <body>
+        <header id="header_formularios"><h1>¿QUIÉN ERES?</h1></header>
+        <nav id="nav_formularios">
+			<ul>
+                <li id="menu_carrera" > <a href="../HTML/sobremi.html">SOBRE MI</a></li>
+                <li id="menu_carrera"> <a href="../HTML/Hobbies.html">HOBBIES</a> </li>
+                <li id="menu_carrera"> <a href="../HTML/micarrera.html">MI CARRERA</a> </li>
+                <li id="menu_carrera"> <a href="../HTML/Peliculas.html">PELICULAS</a></li>
+                <li id="menu_carrera"> <a href="../HTML/musica.html">MI MUSICA</a> </li>
+                <li id="menu_carrera"> <a href="../HTML/juegos.html">JUEGOS FAV.</a> </li>       
+                <li id="menu_carrera"> <a href="../HTML/tablas.html">AMIGOS</a> </li>
+                <li id="menu_carrera"> <a href="../HTML/formularios.html">¿QUIEN ERES?</a> </li>
+            </ul>
+	</nav>
+        <main id="main_formularios">
+            
+            
+          <section id="seccion_formularios">
+            <h2 id="registro" style="font-size: 30px;">REGISTRO</h2>
+            <p style="font-size: 25px;">¡Hola a todos! Los invitamos a registrarse para conocer más sobre ustedes y crear una comunidad más unida. Su participación es fundamental para compartir experiencias, ideas y aprender unos de otros. </p><br>
+			  <form action="" method="get">
+			  		<label id="">Nombre:</label>
+				  	<input type="text" id="nombre" name="nombre">
+				  	<label id="">Contraseña:</label>
+				  	<input type="password" id="contrasena" name="contrasena">
+				  	<input type="submit" value="Enviar">
+			  </form>
+              <br>
+             <a href="#menu_interno_formularios">  <img style="width: 50px;" id="dan" src="../imagenes/ICONOS/confundido.png">
+                </a>
+          </section>
+			
+          <section id="seccion_formularios">
+            <h2 id="origen" style="font-size: 30px;">¿DE DONDE ERES?</h2>
+            <p style="font-size: 25px;"> Para conocernos mejor, les pedimos que seleccionen su lugar de origen: ¿son de Puebla, extranjeros o foráneos? Esta información nos ayudará a entender la diversidad de nuestra comunidad y a crear un espacio donde cada voz sea escuchada. ¡Esperamos su respuesta!</p>
+            <form id="form1" name="form1" method="get">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre">
+				
+              <label for="number">Edad:</label>
+              <input type="number" name="number" id="number" min="18" max="90">
+				
+              <label for="select">Estado:</label>
+              <select name="estado" id="estado">
+				  <option value="foraneo">Foraneo </option>
+				  <option value="extranjero"> Extranjero</option>
+				  <option value="Puebla"> Puebla</option>
+				  <option value="Pueblacapital"> Puebla Capital</option>
+				 
+              </select>
+             <input type="submit" value="Enviar">
+            </form>
+			 
+			  <br>
+             <a href="#menu_interno_formularios">  <img style="width: 50px;" id="dan" src="../imagenes/ICONOS/confundido.png">
+                </a>
+			  
+          </section>
+            
+            
+          <section id="seccion_formularios">
+            <h2 id="gustos" style="font-size: 30px;">TUS GUSTOS</h2>
+            <p style="font-size: 25px;"> Queremos conocer más sobre sus gustos musicales. Por favor, compártan con nosotros qué género de música disfrutan más y cuáles son sus artistas o canciones favoritas. Esta información nos ayudará a crear un ambiente que refleje nuestros intereses compartidos y a planificar actividades que todos disfrutemos</p>
+			  
+            <form id="form2" name="form2" method="post">
+              <label for="textfield">Nombre:</label>
+              <input type="text" name="textfield" id="textfield">
+				<label for="genero">Genero:</label> 
+              <table  style="width: 0%">
+                <tr>
+               
+					<td ><input type="radio" name="genero" value="Fem" id="genero_0"></td>
+					<td><label>Femenino</label></td>	  
+                </tr>
+                <tr>
+                  
+				<td><input type="radio" name="genero" value="Masc" id="genero_1"></td>
+					<td><label>Masculino</label></td>
+                </tr>
+                <tr>
+                  
+					 <td> <input  type="radio" name="genero" value="Otr" id="genero_2"></td>
+					<td style="text-align: left"><label>Otro</label></td>
+                </tr>
+              </table>
+				
+              <label for="musica">Elige tu genero de Musica Favorito</label>
+              <p>
+                
+				  <input style="display: inline-block" type="checkbox" name="musica" value="clasica" id="musica_0">
+				  <label style="display: inline-block" > Clasica  </label>
+                <br>
+				  
+                
+				 <input style="display: inline-block" type="checkbox" name="musica" value="pop" id="musica_1">
+				  <label style="display: inline-block"> Pop</label>
+                <br>
+				  
+                
+				  <input style="display: inline-block" type="checkbox" name="musica" value="rock" id="musica_2">
+				  <label style="display: inline-block" >Rock</label>
+                <br>
+				  
+                
+				 <input style="display: inline-block" type="checkbox" name="musica" value="tropical" id="musica_3">
+				  <label style="display: inline-block">Tropical</label>
+                <br>
+				  
+                
+				<input style="display: inline-block" type="checkbox" name="musica" value="jazz" id="musica_4">
+				  <label style="display: inline-block" >Jazz</label>
+                <br>
+              </p>
+				 <input type="submit" value="Enviar">
+            </form>
+			 <br>
+             <a href="#menu_interno_formularios">  <img style="width: 50px;" id="dan" src="../imagenes/ICONOS/confundido.png">
+                </a>
+          </section>
+            
+            
+          <section id="seccion_formularios">
+            <h2 id="chisme" style="font-size: 30px;">MAS SOBRE TI </h2>
+            <p  style="font-size: 25px;" >Para añadir un toque divertido a nuestra comunidad, los invitamos a participar en un pequeño chismógrafo. Se trata de responder algunas preguntas curiosas sobre ustedes. ¡No sean tímidos! Sus respuestas nos ayudarán a conocernos mejor y a compartir momentos.¡Esperamos que se animen a participar!</p>
+              <form action="/submit" method="post">
+        <!-- 1. Nombre -->
+        <label for="nombre">1. ¿Cuál es tu nombre?</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        
+        <!-- 2. Edad -->
+        <label for="edad">2. ¿Qué edad tienes?</label>
+        <input type="number" id="edad" name="edad" min="1" required>
+        <br><br>
+
+        <!-- 3. Fecha de nacimiento -->
+        <label for="fechaNacimiento">3. ¿Cuál es tu fecha de nacimiento?</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+        <br><br>
+
+        <!-- 4. Correo electrónico -->
+        <label for="email">4. ¿Cuál es tu correo electrónico?</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- 5. Color favorito -->
+        <label for="colorFavorito">5. ¿Cuál es tu color favorito?</label>
+        <input type="color" id="colorFavorito" name="colorFavorito" required>
+        <br><br>
+
+        <!-- 6. Género -->
+        <label for="genero">6. ¿Cuál es tu género?</label>
+        <select id="genero" name="genero" required>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+            <option value="prefiero-no-decir">Prefiero no decir</option>
+        </select>
+        <br><br>
+
+        <!-- 7. ¿Tienes mascotas? -->
+        <label>7. ¿Tienes mascotas?</label>
+        <input style="margin-left: 300px;" type="radio" id="mascotaSi" name="mascota" value="si" required>
+        <label for="mascotaSi">Sí</label>
+        <input style="margin-left: 300px;" type="radio" id="mascotaNo" name="mascota" value="no" required>
+        <label for="mascotaNo">No</label>
+        <br><br>
+
+        <!-- 8. Descripción breve -->
+        <label for="descripcion">8. Describe brevemente algo interesante sobre ti:</label>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Escribe algo interesante sobre ti..." required></textarea>
+        <br><br>
+
+        <!-- 9. ¿Cuántas horas duermes en promedio? -->
+        <label for="horasDormir">9. ¿Que tan feliz estas hoy? (izquierda menos, derecha más)</label>
+        <input type="range" id="horasDormir" name="horasDormir" min="1" max="12" value="7" required>
+        <br><br>
+
+        <!-- 10. Número de teléfono -->
+        <label for="telefono">10. ¿Cuál es tu número de teléfono?</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="10 dígitos" required>
+        <br><br>
+
+        <!-- Botón para enviar -->
+        <input type="submit" value="Enviar">
+    </form>
+         <br>
+             <a href="#menu_interno_formularios">  <img style="width: 50px;" id="dan" src="../imagenes/ICONOS/confundido.png">
+                </a>
+          </section>
+           
+            <nav id="menu_interno_formularios">
+                <ul>
+                    <li id="menu_abajo_formularios"><a href="#registro" >REGISTRO</a></li>
+                    <li id="menu_abajo_formularios"><a href="#origen" >DE DONDE ERES</a></li>
+                    <li id="menu_abajo_formularios"><a href="#gustos" >TUS GUSTOS</a></li>
+                    <li id="menu_abajo_formularios"><a href="#chisme" >MAS SOBRE TI</a></li>
+                </ul>
+            
+            </nav>
+          
+        </main>
+        <footer id="footer_formularios">
+          <h5>Elaborado por Alan de la Cruz</h5>
+    </footer>
+</body>
+</html>

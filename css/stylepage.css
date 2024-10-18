@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Exo:ital,wght@0,100..900;1,100..900&family=Oregano:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ESTILO GLOBAL TAMAÑOS ------------------- */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    background-color: #95A3A6;
+}
+header,main,footer,nav{
+                width: 1280px;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                
+}
+/* ESTILO GLOBAL TAMAÑOS ------------------- */
+
+/* TIPOGRAFIAS*/
+
+/* 
+TITULO:         font-family: "Exo", sans-serif;
+                font-weight: <weight>;
+                font-style: normal;
+
+
+TEXTO MENUS:    font-family: "Oregano", cursive;
+                font-style: normal;
+                font-weight:bold;
+
+
+SUBTITULOS:     font-family: "Agdasima", sans-serif;
+                font-style: normal;
+
+
+TEXTOS:         font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+
+
+
+
+/* FIN TIPOGRAFIAS*/
+h1{
+    font-family: "Exo", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
+        }
+            
+h2{
+    font-family: "Agdasima", sans-serif;
+    font-style: normal;
+        }
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        }
+nav ul li{
+    font-family: "Oregano", cursive;
+    font-style: normal;
+    font-weight:bold;
+}
+
+/*
+ESTILO PAGINA SOBRE MI 
+--------------------------
+--------------------------
+--------------------------*/
+
+#nav_sobremi {
+    background-color: #232323;   
+    text-align: center;
+    }
+#main_sobremi {
+    background-color: #E2E2E2;         
+    }
+#footer_sobremi {
+    background-color: #16A699;
+    text-align: center;
+    font-size: 14px;
+    }
+#section_sobremi {
+    width: 750px;
+    background-color: #232323;
+    color: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 50px;
+    }
+#section_sobremi a:hover {
+    color: #418E8E;
+    } 
+#menu_sobremi {
+    width: 125px;
+    background-color:#232323;
+    margin-bottom: 10px;
+    padding: 13px;
+    text-align: center;
+    border-width: 1px;
+    border-color: #16A699;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 30px;
+    font-family: "Oregano", cursive;
+    font-size: 20px;
+    }
+#menu_sobremi:hover{
+    background-color: #418E8E;
+    color: #E2E2E2;
+    }
+#menu_interno_sobremi{
+    width: 600px;
+    padding: 10px;
+    background-color: transparent;
+    text-align: center;
+    font-family: "Oregano", cursive;
+}
+#menu_bajo_sobremi{
+    background-color: #418E8E;
+    color: #E2E2E2;
+    font-weight: bold;
+    }
+#menu_bajo_sobremi:hover{
+    background-color: #232323;
+    color: #E2E2E2;
+    font-weight: bold;
+    }
+#menu_bajo_sobremi a:hover{
+    background-color: transparent;
+    color: #E2E2E2;
+    font-weight: bold;
+    }
+#edith {
+    width: 125px;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    float: right;
+    }
+#foto_mia{
+    width: 165px;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    float: right;
+    border-radius: 50px;
+    }
+#marco{
+    width: 115px;
+    height: auto;
+    display: block;
+    margin-right: 20px;
+    float: left;
+    }
+#mis_papas{
+    width: 160px;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    float: right;
+    }
+    #pensamientos{
+    width: 155px;
+    height: auto;
+    display: block;
+    margin-right: 20px;
+    float: left;
+    }
+#letra{
+    width: 165px;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    float: right;
+    }
+/*
+FIN DE ESTILO PAGINA SOBRE MI 
+--------------------------
+--------------------------
+--------------------------*/
+
+
+/*
+ESTILO PAGINA HOBBIES 
+--------------------------
+--------------------------
+--------------------------*/
+#header_hobbies{
+        height: 100px;
+        background-color: #2C2C2C;
+        font-size: 35px;
+        color: white;
+        }
+#nav_hobbies{
+        background-color:#9E3A44;
+        }
+#menu_hobbies {
+        width: 120px;
+        background-color:#ECE9E0;
+        margin-bottom: 10px;
+        padding: 13px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 30px;        
+        }
+#menu_hobbies a{
+        color: #2C2C2C;
+        text-decoration: none;
+        font-family: "Oregano", cursive;
+        font-weight: bold;
+        }
+#menu_hobbies:hover, #menu_hobbies a:hover{
+        background-color: #2C2C2C;
+        color: #FFFFFF;
+        }
+            
+#menu_abajo_hobbies , #menu_abajo_hobbies a{
+        background-color: #ECE9E0;
+        color: #2C2C2C;
+        font-weight: bold;
+        }
+#menu_abajo_hobbies:hover, #menu_abajo_hobbies a:hover{
+        background-color: #232323;
+        color: #E2E2E2;
+        font-weight: bold;
+        }      
+#main_hobbies{
+        background-color:#2C2C2C;
+        }
+#footer_hobbies{
+        background-color: #9E3A44;
+        color:#ECE9E0; 
+        }
+#ordena{
+        width: 450px;
+        height: 150px;
+        }
+#deporte{
+        width: 450px;
+        height: 150px;
+        }
+ /*IMAGENES*/
+#creativo{
+    width: 130px;
+    float: right;
+    margin-right: 50px;            
+    }
+#depor{
+    width: 80px;
+    float: right;
+    margin-right: 60px;            
+    }
+#intelectual{
+    width: 130px;
+    float: right;
+    margin-right: 30px; 
+    margin-top: 20px;
+    }
+#control{
+    width: 110px;
+    height: auto;
+    float: left;
+    margin-right: 10px;  
+    margin-top: 65px;
+    }
+#avion{
+    width: 80px;
+    height: auto;
+    float: right;
+    margin-right: 10px; 
+    margin-left: 10px;
+    margin-top: 65px;
+    }
+#cinta{
+    width: 110px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-top: 40px;
+    }
+/*
+FIN ESTILO PAGINA HOBBIES 
+--------------------------
+--------------------------
+--------------------------*/
+
+/*ESTILO PAGINA CARRERA
+--------------------------
+--------------------------
+--------------------------*/
+#nav_carrera{
+                background-color: #DF7A5E;   
+            }
+#menu_carrera{
+                width: 120px;
+                background-color: #F2CC8E;
+                margin-bottom: 10px;
+                padding: 13px;
+                text-align: center;
+                border-width: 2px;
+                display: inline-block;
+                border-radius: 55px;
+            }
+            #menu_carrera a{
+                color: #3C405B;
+                text-decoration: none;
+                font-size: 18px;
+                font-family: "Oregano", cursive;
+                font-style: normal;
+                font-weight:bold;
+                
+            }
+            #menu_carrera:hover{
+                background-color:#3C405B;
+            }
+           #menu_carrera a:hover{
+                color: #F4F1DE;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            /*MENU DE ABAJO*/
+            #menu_interno_carrera{
+                width: 600px;
+                padding: 10px;
+                background-color: transparent;
+                text-align: center;
+            }
+            #menu_abajo_carrera{
+                width: 120px;
+                background-color: #DF7A5E ;
+            }
+            #menu_abajo_carrera a{
+                color:#3C405B;
+                font-weight: bold;
+            }
+            #menu_abajo_carrera:hover{
+                background-color: #F4F1DE;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            #menu_abajo_carrera a:hover{
+                color: #DF7A5E;
+                background-color: transparent;
+            }
+            
+         /*FIN MENU*/
+            
+        /*DISEÑO DEL MAIN*/
+            #main_carrera{
+                background-color: #81B39A;
+            }
+            #footer_carrera{
+                background-color: #279C89;
+            }
+        /*IMAGENES*/
+            #fondo_titulo_carrera{
+                /*background-image: url("../imagenes/WALLPAPER.png");*/
+                background-image: url(../imagenes/ENLACES%20FONDO.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            #redes{
+                width: 460px;
+                margin-left: 20px;  
+            }
+             #trabajo{
+                width: 305px;
+                margin-left: 50px;  
+            }
+            #portafolio{
+                width: 460px;
+                margin-left: 50px;  
+            }
+
+/*FIN ESTILO CARRERA
+--------------------------
+--------------------------
+--------------------------*/
+
+/*ESTILO PAGINA PELICULAS Y GLOBAL
+--------------------------
+--------------------------
+--------------------------*/
+
+header{
+    height: 120px;
+    background-color:#06121A;
+    color: #f7f1e1;
+    text-align: center;
+}
+header{
+    color:white;
+    font-size: 30px;
+}
+
+main{
+    background-color: #495A6A;
+}
+ section{
+    border-radius: 50px;
+    width: 800px;
+    background-color:#10202D;
+    color: #f7f1e1;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height:auto;
+}
+/*MENUS*/
+nav {
+    background-color: #243644;
+ 
+}
+nav ul{
+    text-align: center;
+    text-decoration: none;   
+     }
+nav ul li{
+                width: 120px;
+                background-color: #95A3A6;
+                margin-bottom: 10px;
+                padding: 13px;
+                text-align: center;
+                border-width: 2px;
+                display: inline-block;
+                border-radius: 55px;
+                font-family: "Oregano", cursive;
+                font-style: normal;
+                font-weight:bold;
+            }
+nav ul li a{
+                color: white;
+                text-decoration: none;
+            }
+nav ul li:hover{
+                background-color: #06121A;
+                
+            }
+nav ul li a:hover{
+                color: #f7f1e1;
+                font-weight: bold;
+                font-size: 17px;
+            }
+main nav{
+    width: 600px;
+    padding: 10px;
+    background-color: transparent;
+    text-align: center;
+}
+main nav ul li{
+    background-color: #06121A;
+}
+main nav ul li:hover, main nav ul li a:hover{
+    background-color: #95A3A6;
+    color:#06121A;
+}
+/*FIN MENU*/
+
+footer {
+    background-color: #06121A;
+    color: white;
+    text-align: center;
+}
+#spiderman2{
+    width: 800px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+    filter:drop-shadow(26px 36px 15px #06121A)
+}
+#avengers1{
+    width: 385;
+    float: left;
+    margin-right:20px;
+    border-radius: 50px;
+    filter:drop-shadow(6px 56px 15px #06121A)
+}
+
+#fondo_seccion{
+    background-image: url(../imagenes/TLOU.jpg);
+    background-repeat: no-repeat;
+    background-size: 115%;
+}
+#fondo_seccion p, #fondo_seccion h2{
+    color: #f7f1e1;
+    margin-right: 365
+    
+}
+#icono_tlou{
+    width: 52px;
+    height: auto;  
+}
+#icono_spiderman{
+    width: 32px;
+    height: auto;
+    float: right
+}
+#icono_avengers{
+    width: 32px;
+    height: auto;
+    float: right
+}
+/* FIN ESTILO PAGINA PELICULAS
+--------------------------
+--------------------------
+--------------------------*/
+
+/*
+ESTILO PAGINA MUSICA
+--------------------------
+--------------------------
+--------------------------*/
+ #fondo_titulo{
+        height: 120px;
+        text-align: center;
+        color:#FFFFFF;
+        font-size: 30px;
+    }
+#nav_audio {
+    background-color: #800835;
+        }
+ #menu_audio{
+        text-align: center;
+        text-decoration: none;   
+     }
+
+
+#menu_audio{
+                width: 120px;
+                background-color: #EE4540;
+                margin-bottom: 10px;
+                padding: 13px;
+                text-align: center;
+                border-width: 2px;
+                display: inline-block;
+                border-radius: 55px;
+                
+            }
+#menu_audio a{
+                color: #2E112D;
+                font-weight: bold;
+                text-decoration: none;
+            }
+#menu_audio:hover{
+                background-color: #2E112D;
+                
+            }
+#menu_interno_audio{
+    width: 600px;
+    padding: 10px;
+    background-color: transparent;
+    text-align: center;
+}
+#menu_audio a:hover{
+                color: #EE4540;
+                font-weight: bold;
+                font-size: 18px;
+            }
+        #menu_abajo_audio{
+                width: 120;
+                background-color: #EE4540;
+            }
+
+            #menu_abajo_audio a{
+                color:#2E112D;
+                font-weight: bold;
+            }
+            #menu_abajo_audio:hover{
+                background-color: #800835;
+                font-weight: bold;
+                font-size: 18px;
+            }
+           #menu_abajo_audio a:hover{
+                color: white;
+               background-color: transparent;
+            }
+/*FIN MENU*/
+
+#main_audio{
+    background-color:#2E112D;
+}
+#footer_audio {
+    background-color: #800835;
+    color: white;
+    text-align: center;
+}
+ #fondo_titulo{
+    background-image: url(../imagenes/LINKIN.jpg);
+    background-repeat: no-repeat;
+    background-size: 101%;
+}
+#chester{
+    width: 130px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+     filter:drop-shadow(6px 10px 9px #520332);
+    border-radius: 20px;
+}
+#oml{
+    width: 190px;
+    height: auto;
+    float: right;
+    margin-top: 20;
+    margin-left: 20px;
+    filter:drop-shadow(6px 10px 9px #520332);
+    border-radius: 20px;
+}
+#emily{
+    width: 170px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    filter:drop-shadow(6px 10px 9px #520332);
+    border-radius: 20px;
+}
+#album{
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    filter:drop-shadow(6px 10px 9px #520332);
+    border-radius: 20px;
+}
+
+/*
+FIN ESTILO PAGINA MUSICA
+--------------------------
+--------------------------
+--------------------------*/
+
+/*
+ESTILO PAGINA JUEGOS
+--------------------------
+--------------------------
+--------------------------*/
+ #header_juegos{
+            background-color:#121A27;
+            color: #DFE0D0;
+        }
+        #nav_juegos{
+            background-color: #C51C5D;
+        }
+        #main_juegos{
+            background-color: #DFE0D0;
+            text-align: center;
+        }
+        #seccion_audio{
+            display: inline-block;
+            width: 40%;
+            height: 650px;
+            margin: 5px;
+            overflow: auto;
+            text-align: left;
+            background-color: #223148;
+            color: white;
+        }
+#menu_juegos{
+            background-color: #121A27;
+        }
+        #menu_juegos:hover{
+            background-color: #DFE0D0;
+        }
+        #menu_juegos a:hover{
+            color:#121A27;
+        }
+        #menu_interno_juegos{
+            width: 600px;
+            padding: 10px;
+            background-color: transparent;
+            text-align: center;
+        }
+        #menu_abajo_juegos{
+            background-color: #121A27;
+        }
+        #menu_abajo_juegos:hover{
+            background-color: #C51C5D;
+        }
+        #menu_abajo_juegos a:hover{
+            background-color: transparent;
+            color: #DFE0D0;
+        }
+        
+        #ps4, #tlou, #bts{
+            border-radius: 40px;
+        }
+/*
+FIN ESTILO PAGINA JUEGOS
+--------------------------
+--------------------------
+--------------------------*/
+
+/*
+ESTILO PAGINA AMIGOS
+--------------------------
+--------------------------
+--------------------------*/
+#header_amigos{
+    background-color: #1F6D81;
+     }
+#nav_amigos{
+    background-color: #FFE7D0;
+     }
+#main_amigos{
+    background-color: #1F6D81;
+     }
+#menu_amigos{
+     background-color: #1F6D81;
+     }
+#menu_amigos:hover{
+     background-color: #D0E7FF;
+     }
+#menu_amigos a:hover{
+     color:#1F6D81; 
+     }  
+#menu_interno_amigos{
+    width: 600px;
+    padding: 10px;
+    background-color: transparent;
+    text-align: center;
+     }
+#menu_abajo_amigos{
+    background-color: #FFE7D0;
+    color: #1F6D81;
+     }
+#menu_abajo_amigos a{
+    font-weight: bold;
+    color: #1F6D81;
+     }
+#menu_abajo_amigos:hover{
+    background-color: #D0E7FF;
+    color: #1F6D81;
+     }
+#menu_abajo_amigos a:hover{
+    font-weight: bold;
+    color: #1F6D81;
+    background-color: transparent;
+     }
+#seccion_amigos{
+    background-color: #FFE7D0; 
+    color:#1F6D81;
+    width: 90%;
+    }
+#footer_amigos{
+    background-color: #FFE7D0;
+    color:#1F6D81;
+}
+
+/*
+FIN ESTILO PAGINA AMIGOS
+--------------------------
+--------------------------
+--------------------------*/
+
+/*
+ESTILO PAGINA FORMULARIOS
+--------------------------
+--------------------------
+--------------------------*/
+
+#header_formularios{
+    background-color: #223C67;
+    height: 120px;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 30px;
+}
+
+/*MENUS*/
+  #nav_formularios {
+    background-color: #D8A95B;
+ 
+}
+#menu_formularios{
+                width: 120px;
+                background-color: #FBF5DD;
+                margin-bottom: 10px;
+                padding: 13px;
+                text-align: center;
+                border-width: 2px;
+                display: inline-block;
+                border-radius: 55px;
+                
+            }
+#menu_formularios a{
+                color: #223C67;
+                font-weight: bold;
+                text-decoration: none;
+            }
+#menu_formularios:hover{
+                background-color: #223C67;
+                
+            }
+#menu_formularios a:hover{
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+#menu_interno_formularios{
+     width: 600px;
+    padding: 10px;
+    background-color: transparent;
+    text-align: center;
+}
+#menu_abajo_formularios{
+    background-color: #FFE7D0;
+    color: #1F6D81;
+     }
+#menu_abajo_formularios a{
+    font-weight: bold;
+    color: #1F6D81;
+     }
+#menu_abajo_formularios:hover{
+    background-color: #D0E7FF;
+    color: #1F6D81;
+     }
+#menu_abajo_formularios a:hover{
+    font-weight: bold;
+    color: #1F6D81;
+    background-color: transparent;
+     }
+/*FIN MENU*/
+
+
+#main_formularios{
+    background-color:#223C67;
+}
+
+ #seccion_formularios{
+    border-radius: 50px;
+    width: 60%;
+    background-color:  #FED792;
+    color: #223C67;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height:auto;
+    overflow: auto;
+     text-align: center;
+}
+#seccion_formularios p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+#footer_formularios {
+    background-color: #D8A95B;
+    color: white;
+    text-align: center;
+}
+
+/*
+FIN ESTILO PAGINA FORMULARIOS
+--------------------------
+--------------------------
+--------------------------*/
+
+
+iframe,audio{
+    display: block;
+    margin: 0 auto;
+}
